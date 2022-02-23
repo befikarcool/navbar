@@ -1,0 +1,141 @@
+
+.cart{
+    color:$lgreen;
+  
+  }
+  nav a{
+      text-decoration: none;
+      display: block;
+      text-transform: uppercase;
+  }
+  
+  .logo{
+      width: 100px;
+      height: 27px;
+      text-align: left;
+      font: normal normal normal 26px Arial;
+      letter-spacing: 3.02px;
+      color: #1C4463;
+      opacity: 1;
+    }
+  
+    .logo .bold{
+      
+      margin-right: 5px;
+      padding: 2px;
+      background: $lgreen;
+      color: #FFFFFF;
+      letter-spacing: -1.01px;
+      }
+  
+  .logo .rem{
+      color: #1C4463;
+      font-weight:bold;
+      }
+  
+  input{
+      
+  
+  width: 400px;
+  height: 35px;
+  background: #FAFAFA 0% 0% no-repeat padding-box;
+  border: 1px solid #616161;
+  border-radius: 4px;
+  opacity: 1;
+  }
+  
+  .button{
+  width: 120px;
+  height: 35px;
+  padding:10px 15px;
+  background: #00A7B8 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  font: normal normal 600 12px Nunito Sans;
+  letter-spacing: 0.17px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-weight: lighter;
+  }
+  
+  .Search{
+    position: fixed;
+    top: 70px;
+    left: 98px;
+    width: 1170px;
+    height: 410px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+  }
+  .product{
+    position: fixed;
+    padding-left: 10px;
+    padding-right: 10px;
+  top: 70px;
+  left: 325px;
+  width: 943px;
+  height: 410px;
+  
+  opacity: 1;
+  }
+  .detail{
+    float: left;
+    margin-top:51px;  
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 210px;
+    height: 315px;
+    opacity: 1;
+    
+  }
+  .img{
+    
+    top: 121px;
+    margin-left: 15px;
+    width: 180px;
+    height: 180px;
+  
+  opacity: 1;
+  }
+  .text{
+    margin-top:8px;
+    
+  }
+  .ProductName{
+    top: 309px;
+  left: 345px;
+  width: 177px;
+  height: 41px;
+  font: normal normal bold 14px/22px Nunito Sans;
+  letter-spacing: 0px;
+  color: #161616;
+  opacity: 1;
+  }
+  
+  .Review{
+    margin-top: 5px;
+    font: normal normal lighter 13px Nunito Sans;
+  }
+  .Review span{
+    color: green;
+    @include margin_lr(2px,7px);
+  }
+  .icon{
+    margin-top: 5px;
+  }
+  .icon .bolt{
+    color: lightblue;
+    margin-right:7px;
+  }
+  .icon .bolt1{
+    color: green;
+    margin-right: 7px;
+  }
+  .icon .bolt2{
+    color: red;
+  }
+  .Price{
+    margin-top: 5px;
+    font: normal normal bold 15px Nunito Sans;
+  }

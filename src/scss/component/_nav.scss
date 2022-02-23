@@ -1,0 +1,39 @@
+.navbar{
+    
+    width: 100%;
+    height: 108px;
+    background: #FFFFFF ;
+    box-shadow: 0px 0px 4px #A9A9A980;
+    opacity: 1;
+
+    & .main_nav{         
+        height: 68px;
+        padding: 15px;
+      }
+
+    & .nv{
+        width: 100%;
+        height: 40px;
+        background: #F5F5F5 0% 0% no-repeat padding-box;
+        opacity: 1;
+          }
+
+    }
+
+    nav {
+
+     & ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    & li:first-child{
+        flex-basis: 30%;
+        text-align: left
+    }
+}

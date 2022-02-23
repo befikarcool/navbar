@@ -1,0 +1,26 @@
+.heading{
+    text-align: center;
+    padding: 10px;
+    font: normal normal bold 32px/40px Nunito Sans;
+}
+.main_div{
+    
+    width: 100%;
+    padding-bottom: 30px;
+    background-color: #FAFAFA;
+}
+
+.cat_card{
+    background:url("../../../public/p1.png");
+    height: 114px;
+    width: 370px;
+    border-radius: 15px;
+    
+    padding-top: 50px;
+    padding-left: 200px;
+   
+}
+.cat_item{
+    @include card;
+}
+
